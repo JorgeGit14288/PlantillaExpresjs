@@ -7,7 +7,7 @@ var testController = require('../app/controllers/testController');
 //router.get('/test', testController.getTest);
 router.get('/test', controllers.test.getTest);
 router.get('/inicio', controllers.inicio.getInicio);
-router.get('/posts', controllers.inicio.getPosts);
+router.get('/posts', controllers.services.getPosts);
 
 //other controllers
 
