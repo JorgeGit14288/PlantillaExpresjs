@@ -8,6 +8,7 @@ var testController = require('../app/controllers/testController');
 router.get('/test', controllers.test.getTest);
 router.get('/inicio', controllers.inicio.getInicio);
 router.get('/posts', controllers.services.getPosts);
+router.get('/photos', controllers.services.getPhotos);
 
 //other controllers
 
